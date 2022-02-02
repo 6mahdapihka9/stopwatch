@@ -1,0 +1,33 @@
+.Timers {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#display {
+    margin-bottom: 2em;
+}
+#display span {
+    font-size: 2em;
+}
+#buttons button:not(:last-child) {
+    margin-right: 1em;
+}
+
+button {
+    font-size: 1em;
+    background-color: rgb(217, 60, 35);
+    color: #fff;
+    border-radius: 1em;
+    border: none;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(173, 47, 28);
+}
+button:active {
+    background-color: rgb(130, 35, 21);
+}
+button:focus {
+    outline: 0;
+}
