@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# png
+/docs/block scheme.png
+/public/block scheme.png
+
 # testing
 /coverage
 
